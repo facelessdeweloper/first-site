@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif; /* Семейство шрифтов */
+    font-size: 32px; /* Размер основного шрифта в <p></p>  */
+    background-color: hsl(24, 45%, 70%); /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+    text-align: center;
+}
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: sans-serif; /* Семейство шрифтов */
+}
+h2 {
+    color: rgb(255, 0, 0);
+}
+@keyframes color-change {
+
+    0% {
+        color: yellow;
+      }
+
+    25% {
+      color: red;
+    }
+  
+    50% {
+      color: green;
+    }
+
+    75% {
+        color: blue;
+      }
+
+    100% {
+      color: yellow;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
